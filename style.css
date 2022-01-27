@@ -14,6 +14,7 @@
 
 body{
     font-family: 'Inter', sans-serif;
+    background: #E5E5E5;
 }
 
 #hero {
@@ -25,6 +26,7 @@ body{
 .logo {
     font-weight: 800;
     font-size: 1.3rem;
+    cursor: pointer;
 }
 
 header {
@@ -88,6 +90,7 @@ a {
     line-height: 0.6rem;
     text-align: center;
     border: 1.5px solid #3f6745;
+    cursor: pointer;
 }
 
 .createacct {
@@ -107,6 +110,7 @@ a {
     border: none;
     text-align: center;
     border: 2px solid #3f6745;
+    cursor: pointer;
 }
 
 /* btn hover */
@@ -192,7 +196,7 @@ div.new {
     background: #315237;
     border-radius: 25px;
     margin-bottom: 20px;
-    z-index: 0.5;
+    outline: none;
 }
 
 p.get-offer {
