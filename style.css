@@ -275,3 +275,36 @@ img.girl {
     height: 575px;
     width: auto;
 }
+
+.ten-section {
+    padding: 20px;
+    margin: 30px 150px;
+}
+
+.ten-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px;
+    margin: 0;
+}
+
+.ten-left-10k {
+    font-size: 45px;
+    display: grid;
+}
+
+.fa-heart {
+    color: #fd6816;
+    margin: 2px 0 5px 0;
+}
+
+.active-students {
+    font-weight: 450;
+    margin-bottom: 2px;
+}
+
+.on-website {
+    color: #fd6816;
+}
