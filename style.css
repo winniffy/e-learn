@@ -357,12 +357,112 @@ img.girl {
 
 .working-container {
     padding: 20px;
-    margin: 80px 150px;
+    margin: 80px 0;
 }
 
 .working-process {
-    font-size: 50px;
+    font-size: 3.2rem;
     text-align: center;
+    font-weight: 610;
+}
+
+.working-container-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 65px;
+}
+
+.find-course {
+    display: grid;
+    margin-left: 10px;
+}
+
+.find-course-icon {
+    width: 100px;
+    height: 100px;
+    background-color: #3f6745;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.find-course-text {
+    margin-top: 25px;
+    font-size: 1.7rem;
     font-weight: 600;
 }
 
+.fa-search-plus {
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+
+.we-have-helped {
+    color: #808080;
+    font-size: 1rem;
+    margin-top: 10px;
+    font-weight: 300;
+    line-height: 1.6rem;
+}
+
+.book-seat {
+    display: grid;
+    margin-left: 10px;
+}
+
+.book-seat-icon {
+    width: 100px;
+    height: 100px;
+    background-color: #3f6745;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.book-seat-text {
+    margin-top: 25px;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.fa-calendar-check {
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+
+.get-certificate {
+    display: grid;
+    margin-left: 10px;
+    background-color: #ffffff;
+    padding: 28px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px #DFDCDC;
+}
+
+.get-certificate-icon {
+    width: 100px;
+    height: 100px;
+    background-color: #fd6816;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.get-certificate-text {
+    margin-top: 25px;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.fa-graduation-cap {
+    color: #ffffff;
+    font-size: 2.5rem;
+}
