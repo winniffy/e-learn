@@ -276,7 +276,7 @@ img.girl {
     width: auto;
 }
 
-.ten-section {
+.ten-container {
     padding: 20px;
     margin: 50px 150px;
 }
@@ -354,3 +354,15 @@ img.girl {
 .ten-logo {
     width: 150px;
 }
+
+.working-container {
+    padding: 20px;
+    margin: 80px 150px;
+}
+
+.working-process {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+}
+
