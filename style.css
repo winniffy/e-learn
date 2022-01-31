@@ -278,7 +278,7 @@ img.girl {
 
 .ten-container {
     padding: 20px;
-    margin: 50px 150px;
+    margin: 50px 150px 0 150px;
 }
 
 .ten-top {
@@ -357,7 +357,7 @@ img.girl {
 
 .working-container {
     padding: 20px;
-    margin: 80px 0;
+    margin: 80px 0 30px 0;
 }
 
 .working-process {
@@ -518,3 +518,54 @@ img.girl {
     float: right;
     position: relative;
 } */
+
+.our-popular-courses-section {
+    padding: 20px;
+    margin: 0 150px;
+}
+
+.our-popular-courses {
+    padding: 20px;
+}
+
+.our-popular-courses-text {
+    margin-left: 10px;
+    font-size: 2.5rem;
+    font-weight: 650;
+}
+
+.online-education-text {
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #808080;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.6rem;
+}
+
+.sort {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    width: 180px;
+    height: 45px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 15px #DFDCDC;
+    float: right;
+    margin-right: 10px;
+    margin-top: 0;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.sort-text {
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.course-cards-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
