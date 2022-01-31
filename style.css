@@ -466,3 +466,55 @@ img.girl {
     color: #ffffff;
     font-size: 2.5rem;
 }
+
+.curved-line1-section {
+    position: absolute;
+    top: 1500px;
+    left: 290px;
+}
+
+.curved-line1 {
+    width: 350px;
+    height: 100px;
+    border: 3px #808080 solid;
+    border-color: transparent transparent #808080 transparent;
+    border-radius: 90%;
+    border-style: dashed;
+    transform: rotate(170deg);
+}
+
+/* .curved-line1-arrow {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #808080;
+    float: right;
+    position: relative;
+} */
+
+.curved-line2-section {
+    position: absolute;
+    top: 1450px;
+    left: 710px;
+}
+
+.curved-line2 {
+    width: 350px;
+    height: 100px;
+    border: 3px #808080 solid;
+    border-color: transparent transparent #808080 transparent;
+    border-radius: 90%;
+    border-style: dashed;
+    transform: rotate(348deg);
+}
+
+/* .curved-line2-arrow {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #808080;
+    float: right;
+    position: relative;
+} */
