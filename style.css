@@ -608,9 +608,50 @@ img.girl {
     border-radius: 5px;
     padding: 5px;
     font-size: 0.8rem;
+    font-weight: 500;
 }
 
 .price {
     font-weight: 650;
     color: #fd6816;
+}
+
+.how-to {
+    width: 21rem;
+    margin-top: 0.6em;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.uiux-lessons-online {
+    width: 21rem;
+    margin-top: 0.6em;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.uiux-lessons {
+    display: flex;
+    width: 5.7rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lessons-24 {
+    font-size: 0.8rem;
+    color: #808080;
+}
+
+.uiux-online {
+    display: flex;
+    width: 6.9rem;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 2em;
+}
+
+.online-classes {
+    font-size: 0.8rem;
+    color: #808080;
 }
