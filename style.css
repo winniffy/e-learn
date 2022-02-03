@@ -569,7 +569,7 @@ img.girl {
     padding: 10px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: minmax(25rem, auto);
+    grid-auto-rows: minmax(29rem, auto);
     grid-gap: 1.5rem;
 }
 
@@ -618,14 +618,14 @@ img.girl {
 
 .how-to {
     width: 21rem;
-    margin-top: 0.6em;
+    margin-top: 0.7em;
     font-weight: 600;
     font-size: 1.1rem;
 }
 
 .uiux-lessons-online {
     width: 21rem;
-    margin-top: 0.6em;
+    margin-top: 1em;
     display: flex;
     align-items: center;
     justify-content: left;
@@ -654,4 +654,37 @@ img.girl {
 .online-classes {
     font-size: 0.8rem;
     color: #808080;
+}
+
+.card-line {
+    width: 21rem;
+    margin-top: 1.5rem;
+    background-color: #FFA06F;
+    height: 0.15rem;
+}
+
+.votes-next {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 21rem;
+    margin-top: 1.6rem;
+}
+
+.votes-section {
+    display: flex;
+    width: 8.6rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.votes-36 {
+    font-size: 0.8rem;
+    color: #808080;
+}
+
+.fa-arrow-alt-circle-right {
+    color: #3F6745;
+    font-size: 2rem;
+    cursor: pointer;
 }
