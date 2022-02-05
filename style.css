@@ -566,7 +566,7 @@ img.girl {
 
 .course-cards-section {
     margin-top: 4em;
-    padding: 10px;
+    padding: 10px 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: minmax(29rem, auto);
@@ -594,7 +594,7 @@ img.girl {
     border-radius: 10px;
 }
 
-.uiux-price {
+.uiux-price, .web-design-price, .maths-price, .digital-price, .public-speaking-price {
     width: 21rem;
     display: flex;
     flex-direction: row;
@@ -603,7 +603,7 @@ img.girl {
     margin-top: 0.6em;
 }
 
-.uiux {
+.uiux,.web-design, .maths, .digital-marketing, .public-speaking {
     background-color: #FFE6D9;
     border-radius: 5px;
     padding: 5px;
@@ -611,7 +611,7 @@ img.girl {
     font-weight: 500;
 }
 
-.price {
+.price, .wd-price, .maths-price-250, .dg-price, .ps-price {
     font-weight: 650;
     color: #fd6816;
 }
@@ -687,4 +687,14 @@ img.girl {
     color: #3F6745;
     font-size: 2rem;
     cursor: pointer;
+}
+
+.join-live-class-section {
+    padding: 20px;
+    margin-top: 80px;
+}
+
+.join-live-class {
+    font-size: 2.7rem;
+    text-align: center;
 }
