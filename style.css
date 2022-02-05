@@ -594,7 +594,7 @@ img.girl {
     border-radius: 10px;
 }
 
-.uiux-price {
+.uiux-price, .web-design-price, .maths-price, .digital-price, .public-speaking-price {
     width: 21rem;
     display: flex;
     flex-direction: row;
@@ -603,7 +603,7 @@ img.girl {
     margin-top: 0.6em;
 }
 
-.uiux {
+.uiux,.web-design, .maths, .digital-marketing, .public-speaking {
     background-color: #FFE6D9;
     border-radius: 5px;
     padding: 5px;
@@ -611,7 +611,7 @@ img.girl {
     font-weight: 500;
 }
 
-.price {
+.price, .wd-price, .maths-price-250, .dg-price, .ps-price {
     font-weight: 650;
     color: #fd6816;
 }
