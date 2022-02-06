@@ -698,3 +698,40 @@ img.girl {
     font-size: 2.7rem;
     text-align: center;
 }
+
+
+.join-class-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.join-class {
+    display: flex;
+    margin-top: 2em;
+    padding: 0.8em;
+    width: 9em;
+    height: 2.6em;
+    border: 1px solid #fd6816;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.joinclass-icon {
+    width: 1.6em;
+    height: 1.6em;
+    border-radius: 7px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 3px #DFDCDC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redcircle {
+    width: 0.5em;
+    height: 0.5em;
+    background-color: #ff0000;
+    border-radius: 50%;
+}
