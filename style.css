@@ -735,3 +735,31 @@ img.girl {
     background-color: #ff0000;
     border-radius: 50%;
 }
+
+.class-name-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.class-name-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3em;
+    height: 6em;
+    width: 45em;
+    border: 1px solid black;
+}
+
+.classname {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 8.5em;
+    height: 2.7em;
+    padding: 1em;
+    border-radius: 6px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 3px #DFDCDC;
+}
