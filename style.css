@@ -762,6 +762,7 @@ img.girl {
     width: 8.5em;
     height: 2.7em;
     padding: 1em;
+    transition: 0.5s;
 }
 
 .classname:hover,
@@ -771,7 +772,6 @@ img.girl {
     border-radius: 6px;
     background-color: #ffffff;
     box-shadow: 0px 0px 3px #DFDCDC;
-    /* transition: 1s; */
 }
 
 .section {
@@ -781,6 +781,7 @@ img.girl {
     width: 7.2em;
     height: 2.7em;
     padding: 1em;
+    transition: 0.5s;
 }
 
 .subject {
@@ -790,6 +791,7 @@ img.girl {
     width: 7.2em;
     height: 2.7em;
     padding: 1em;
+    transition: 0.5s;
 }
 
 .room {
@@ -799,15 +801,22 @@ img.girl {
     width: 6.4em;
     height: 2.7em;
     padding: 1em;
+    transition: 0.5s;
 }
 
+
+.live-img-container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
 .live-img-section {
-    background-image: url("./img/joinclass.svg");
+    background-image: url("./img/pexels-tima-miroshnichenko-5198239.jpg");
+    background-color: #315237;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 400px;
-    width: 100%;
+    height: 30em;
+    width: 45em;
     border-radius: 10px;
-    border: 1px solid black;
 }
