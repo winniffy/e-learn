@@ -853,3 +853,20 @@ img.girl {
     font-weight: 700;
     margin-left: 1em;
 }
+
+.students-joined {
+    position: relative;
+    top: 28em;
+    left: 1.6em;
+    font-size: 0.8rem;
+    color: #ffffff;
+}
+
+.students-joined-section {
+    position: relative;
+    top: 23em;
+    left: 1.6em;
+    border: 1px solid #ffffff;
+    width: 41em;
+    height: 3em;
+}
