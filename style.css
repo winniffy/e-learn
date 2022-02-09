@@ -812,11 +812,44 @@ img.girl {
 }
 .live-img-section {
     background-image: url("./img/pexels-tima-miroshnichenko-5198239.jpg");
-    background-color: #315237;
+    background-color: transparent;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 30em;
     width: 45em;
     border-radius: 10px;
+}
+
+.live {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 5.2em;
+    height: 1.6em;
+    border-radius: 5px;
+    background-color: #ffffff;
+    position: relative;
+    top: 1.6em;
+    left: 1.6em;
+    padding-left: 0.6em;
+}
+
+.live-red-circle {
+    width: 7.5px;
+    height: 7.5px;
+    border-radius: 50%;
+    background-color: #ff0000;
+}
+
+.live-textt {
+    font-size: 0.6rem;
+    font-weight: 600;
+    margin-left: 0.6em;
+}
+
+.live-time {
+    font-size: 0.4rem;
+    font-weight: 700;
+    margin-left: 1em;
 }
