@@ -869,4 +869,26 @@ img.girl {
     border: 1px solid #ffffff;
     width: 41em;
     height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.profile-picture-section {
+    margin-left: 0.5em;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    height: 2em;
+    border: 1px solid black;
+}
+
+.profile-picture {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    display: inline-block;
+    overflow: hidden;
+    background-color: #315237;
+    margin-left: -0.5em;
 }
