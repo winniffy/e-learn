@@ -886,9 +886,59 @@ img.girl {
     width: 2em;
     height: 2em;
     border-radius: 50%;
-    border: 1px solid #ffffff;
-    display: inline-block;
-    overflow: hidden;
-    background-color: #315237;
+    border: 1.8px solid #ffffff;
     margin-left: -0.5em;
+}
+
+.pfp1 {
+    background-image: url(./img/rediet-abebe.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.pfp2 {
+    background-image: url(./img/anatoly-yakovenko.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.pfp3 {
+    background-image: url(./img/hanu-fejiro.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.pfp4 {
+    background-image: url(./img/elon-musk.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.pfp5 {
+    background-image: url(./img/iyin-aboyeji.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.pfp6 {
+    background-image: url(./img/vitalik-buterin.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.pfp7 {
+    background-image: url(./img/winner-umeh.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.pfp8 {
+    background-color: #fd6816;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plus-in-pfp8 {
+    font-size: 1.2rem;
+    color: #ffffff;
 }
