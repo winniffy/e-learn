@@ -772,6 +772,7 @@ img.girl {
     border-radius: 6px;
     background-color: #ffffff;
     box-shadow: 0px 0px 3px #DFDCDC;
+    cursor: pointer;
 }
 
 .section {
@@ -866,7 +867,6 @@ img.girl {
     position: relative;
     top: 23em;
     left: 1.6em;
-    border: 1px solid #ffffff;
     width: 41em;
     height: 3em;
     display: flex;
@@ -879,7 +879,6 @@ img.girl {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     height: 2em;
-    border: 1px solid black;
 }
 
 .profile-picture {
@@ -937,6 +936,7 @@ img.girl {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .plus-in-pfp8 {
     font-size: 1.2rem;
@@ -944,10 +944,9 @@ img.girl {
 }
 
 .students-joined-first-controls {
-    border: 1px solid black;
     width: 9em;
     height: 2em;
-    margin-left: 5em;
+    margin-left: 6em;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -959,6 +958,7 @@ img.girl {
     color: #ffffff;
     font-size: 1.5rem;
     text-shadow: 0px 0px 50px #000;
+    cursor: pointer;
 }
 
 .phone-container {
@@ -969,6 +969,7 @@ img.girl {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .fa-phone {
@@ -980,4 +981,37 @@ img.girl {
     color: #ffffff;
     font-size: 1.5rem;
     text-shadow: 0px 0px 50px #000;
+    cursor: pointer;
+}
+
+.students-joined-second-controls {
+    width: 9em;
+    height: 2em;
+    margin-left: 6em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.fa-gear {
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-shadow: 0px 0px 50px #000;
+    cursor: pointer;
+}
+
+.fa-volume-low {
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-shadow: 0px 0px 50px #000;
+    cursor: pointer;
+}
+
+.fa-expand {
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-shadow: 0px 0px 50px #000;
+    cursor: pointer;
 }
