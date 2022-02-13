@@ -1015,3 +1015,46 @@ img.girl {
     text-shadow: 0px 0px 50px #000;
     cursor: pointer;
 }
+
+.get-instant-alert-container {
+    border: 1px solid red;
+    position: relative;
+}
+
+.get-instant-alert-img-text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 5em;
+    border: 1px solid red;
+    width: 100%;
+    height: 36em;
+}
+
+.get-instant-alert-img {
+    position: relative;
+    width: 25em;
+    height: 30em;
+    top: 4em;
+    left: 3em;
+    border: 1px solid black;
+}
+
+.get-instant-alert-text {
+    position: relative;
+    width: 38.6em;
+    height: 30em;
+    top: 4em;
+    left: 10em;
+    border: 1px solid black;
+}
+
+.new-message-alert {
+    position: absolute;
+    top: 25em;
+    left: 15em;
+    width: 15em;
+    height: 10em;
+    border: 1px solid black;
+    background-color: #ffffff;
+}
