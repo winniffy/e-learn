@@ -1017,6 +1017,11 @@ img.girl {
 }
 
 .get-instant-alert-container {
+    border: 1px solid red;
+    position: relative;
+}
+
+.get-instant-alert-img-text {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -1033,7 +1038,6 @@ img.girl {
     top: 4em;
     left: 3em;
     border: 1px solid black;
-    z-index: 1;
 }
 
 .get-instant-alert-text {
@@ -1045,13 +1049,12 @@ img.girl {
     border: 1px solid black;
 }
 
-.new-message.alert {
-    position: relative;
-    top: 10em;
-    left: 1em;
-    width: 10em;
-    height: 15em;
+.new-message-alert {
+    position: absolute;
+    top: 25em;
+    left: 15em;
+    width: 15em;
+    height: 10em;
     border: 1px solid black;
     background-color: #ffffff;
-    z-index: 2;
 }
