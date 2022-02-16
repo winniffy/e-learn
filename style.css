@@ -1052,7 +1052,7 @@ img.girl {
     align-items: flex-start;
     justify-content: flex-start;
     margin-top: 5em;
-    border: 1px solid red;
+    border: 1px solid blue;
     width: 100%;
     height: 36em;
 }
@@ -1067,27 +1067,7 @@ img.girl {
     height: 30em;
     top: 4em;
     left: 3em;
-    z-index: -1;
-    
-
-    /* border-top: 0 solid transparent;
-    border-left: 25em solid aqua;
-    border-bottom: 3em solid transparent; */
-}
-
-.get-instant-alert-img::after {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: inherit;
-    z-index: 1;
-    bottom: 0;
-    content: '';
-    -webkit-transform: skew();
-    transform-origin: right;
-    transform: skewY(-5deg);
-    border: 1px solid red;
-    
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
 }
 
 .get-instant-alert-text {
@@ -1102,10 +1082,10 @@ img.girl {
 .new-message-alert {
     position: absolute;
     top: 25em;
-    left: 15em;
-    width: 15em;
+    left: 17em;
+    width: 13em;
     height: 10em;
-    border-top: 0 solid transparent;
-    border-left: 15em solid #ffffff;
-    border-bottom: 1.8em solid transparent;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 15px #DFDCDC;
+    clip-path: polygon(0 0, 100% 0, 100% 82%, 0 100%);
 }
