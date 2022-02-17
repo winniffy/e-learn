@@ -1067,7 +1067,7 @@ img.girl {
     height: 30em;
     top: 4em;
     left: 3em;
-    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 3vw), 0 100%);
 }
 
 .get-instant-alert-text {
@@ -1080,22 +1080,27 @@ img.girl {
 }
 
 .new-message-alert {
+    padding-left: 1em;
+    padding-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
     position: absolute;
-    top: 25em;
+    top: 23em;
     left: 17em;
     width: 13em;
     height: 10em;
     background-color: #ffffff;
     box-shadow: 0px 0px 15px #DFDCDC;
-    clip-path: polygon(0 0, 100% 0, 100% 82%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 1.5vw), 0 100%);
 }
 
 .get-instant-alert-circles-group1 {
     width: 12em;
     height: 3em;
-    top: 4.5em;
+    top: 5em;
     position: absolute;
-    border: 1px solid black;
     display: grid;
     grid-template-columns: repeat(12, 3fr);
     grid-auto-rows: minmax(0.1em, auto);
@@ -1112,12 +1117,69 @@ img.girl {
 .get-instant-alert-circles-group2 {
     width: 3em;
     height: 12em;
-    top: 7.5em;
+    top: 8em;
     position: absolute;
-    border: 1px solid black;
     display: grid;
-    grid-template-columns: repeat(3, 12fr);
+    grid-template-columns: repeat(3, 11fr);
     grid-auto-rows: minmax(0.1em, auto);
     grid-gap: 0.1em;
 }
 
+.new-message-alert-text {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.new-message-alert-15mins {
+    margin: 0.6em 0;
+    font-size: 0.8em;
+    color: #808080;
+    font-weight: 300;
+}
+
+.new-message-alert-approved-container {
+    height: 4em;
+    width: 11em;
+    border-top: 2px dashed #808080;
+    border-left: transparent;
+    border-bottom: transparent;
+    border-right: transparent;
+    margin-top: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.approved {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background-color: #04933B;
+    display: grid;
+    place-items: center;
+}
+
+.fa-thumbs-up {
+    color: #ffffff;
+    font-size: 1.1rem;
+}
+
+.approved-cv {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 0.7em;
+}
+
+.approved-cv-text {
+    font-size: 0.8rem;
+    color: #808080;
+    margin-bottom: 0.1em;
+}
+
+.approved-uiux {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
