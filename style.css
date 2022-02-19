@@ -1267,12 +1267,17 @@ img.girl {
     padding: 0;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
     border: 1px solid black;
 }
 
 .newsletter-container {
-    height: 15rem;
+    height: 17rem;
     width: 100%;
+    display: flex;
+    padding: 4% 0;
+    align-items: flex-start;
+    justify-content: center;
     border-radius: 15px;
     background-color: #315237;
 }
