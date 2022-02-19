@@ -827,6 +827,7 @@ img.girl {
     align-items: center;
     justify-content: center;
     display: flex;
+    margin: 0 auto;
 }
 
 .live-img-section {
@@ -1045,7 +1046,7 @@ img.girl {
 .get-instant-alert-container {
     position: relative;
     width: 90%;
-    margin: 0 auto;
+    margin: 0 6rem;
 }
 
 .get-instant-alert-img-text {
@@ -1256,4 +1257,22 @@ img.girl {
     color: #ffffff;
     font-size: 1.1rem;
     font-weight: 400;
+}
+
+.footer-section {
+    display: flex;
+    margin: 2rem 16rem 2rem 16rem;
+    height: 50rem;
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.newsletter-container {
+    height: 15rem;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #315237;
 }
