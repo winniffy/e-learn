@@ -1367,11 +1367,15 @@ img.girl {
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: 1fr repeat (3, 1fr);
-    row-gap: 1rem;
+    column-gap: 1.5rem;
 }
 
 .footer-elearn {
     margin-bottom: 1rem;
+}
+
+.footer-bottom-left {
+    width: 23rem;
 }
 
 .footer-elearn-sub {
@@ -1444,6 +1448,7 @@ img.girl {
 h2 {
     font-size: 1.05rem;
     margin-bottom: 0.6rem;
+    padding-left: 0.5em;
 }
 
 ul {
@@ -1453,7 +1458,18 @@ ul {
 ul li {
     font-size: 0.9rem;
     color: #808080;
-    line-height: 1.8rem;
+    line-height: 1.9rem;
+    padding-left: 0.5rem;
+}
+
+li {
+    display: list-item;
+}
+
+li:hover {
+    background-color: #dadada;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .footer-copyright {
