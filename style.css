@@ -249,6 +249,7 @@ input#input {
     border: none;
     font-size: 15px;
     font-weight: 10;
+    outline: none;
 }
 
 div.search-icon {
@@ -1357,6 +1358,12 @@ img.girl {
     height: 3rem;
     font-size: 1rem;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+.instructor-apply-now:hover {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
 }
 
 .footer-bottom {
