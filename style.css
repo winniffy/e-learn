@@ -265,6 +265,10 @@ div.search-icon {
     cursor: pointer;
 }
 
+.search-icon:hover {
+    background-color: #fd8443;
+}
+
 .fa-search {
     font-size: 20px;
     font-weight: 0;
@@ -1255,6 +1259,10 @@ img.girl {
     cursor: pointer;
 }
 
+.join-now-box:hover {
+    background-color: #fd8443;
+}
+
 .join-now-text {
     color: #ffffff;
     font-size: 1.1rem;
@@ -1331,6 +1339,10 @@ img.girl {
     font-size: 0.95rem;
     font-weight: 300;
     cursor: pointer;
+}
+
+.subscribe:hover {
+    background-color: #fd8443;
 }
 
 .become-an-instructor-section {
