@@ -1485,7 +1485,7 @@ li {
     display: list-item;
 }
 
-li:hover {
+footer li:hover {
     background-color: #dadada;
     border-radius: 5px;
     cursor: pointer;
