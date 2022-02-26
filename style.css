@@ -50,7 +50,7 @@ header {
 }
 
 .menuItem {
-    margin: 0px 1.4rem;
+    margin: 0 1.4rem;
     text-decoration: none;
     color: #3f6745;
     font-weight: 500;
@@ -75,7 +75,7 @@ a {
 }
 
 .myacct {
-    margin: 0px 1rem;
+    margin: 0 1rem;
     padding: 5%;
     border-radius: 5px;
     white-space: nowrap;
@@ -94,7 +94,7 @@ a {
 }
 
 .createacct {
-    margin: 0px 1rem;
+    margin: 0 1rem;
     padding: 5%;
     border-radius: 5px;
     white-space: nowrap;
@@ -164,7 +164,7 @@ div.content {
     justify-content: space-between;
     align-items: center;
     width: 85%;
-    height: 80vh;
+    max-height: 80vh;
     background-color: #3f6745;
     padding: 2%;
     margin: 0.8% auto;
