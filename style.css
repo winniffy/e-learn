@@ -156,25 +156,25 @@ main {
     display: block;
     width: 100%;
     height: 100%;
-    margin-top: 0;
+    margin-top: 0 auto;
 }
 
 div.content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 85%;
+    max-width: 85%;
     max-height: 80vh;
-    background-color: #3f6745;
+    background: #3f6745;
     padding: 2%;
-    margin: 0.8% auto;
+    margin: 1rem auto;
     border-radius: 15px;
 }
 
 div.text-area {
     display: grid;
-    margin-top: 30px;
-    margin-left: 70px;
+    margin-top: 1.3rem;
+    margin-left: 4rem;
     color: #ffffff;
 }
 
@@ -191,8 +191,8 @@ div.new {
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    height: 37px;
-    width: 340px;
+    max-height: 2.313rem;
+    max-width: 21.25rem;
     background: #315237;
     border-radius: 25px;
     margin-bottom: 20px;
@@ -200,20 +200,20 @@ div.new {
 }
 
 p.get-offer {
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 280;
-    margin: 10px;
+    margin: 0.625rem;
 }
 
 div.new-color {
     display: flex;
     background: #ffc152;
-    margin-left: 5px;
+    margin-left: 0.313rem;
     z-index: 1;
     padding: 0;
-    width: 65px;
-    height: 30px;
-    border-radius: 25px;
+    width: 4.063rem;
+    height: 1.875rem;
+    border-radius: 1.563rem;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -230,8 +230,8 @@ div.search-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
-    width: 400px;
+    height: 3.75rem;
+    width: 25rem;
     background: #ffffff;
     border-radius: 7px;
     margin-top: 40px;
@@ -240,22 +240,22 @@ div.search-container {
 
 input#input {
     border-radius: 7px;
-    height: 47px;
+    height: 2.938rem;
     position: absolute;
     padding: 10px;
     margin: 8px 0 9px 8px;
-    width: 320px;
+    width: 20rem;
     background-color: #f2f2f2;
     border: none;
-    font-size: 15px;
+    font-size: 0.938rem;
     font-weight: 10;
     outline: none;
 }
 
 div.search-icon {
     padding: 10px;
-    height: 47px;
-    width: 50px;
+    height: 2.938rem;
+    width: 3.125rem;
     background-color: #fd6816;
     border-radius: 7px;
     margin-left: 85%;
@@ -270,14 +270,14 @@ div.search-icon {
 }
 
 .fa-search {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 0;
     text-align: center;
 
 }
 
 img.girl {
-    height: 575px;
+    height: 35.4rem;
     width: auto;
 }
 
@@ -574,7 +574,7 @@ img.girl {
     padding: 10px 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: minmax(29rem, auto);
+    grid-auto-rows: minmax(30rem, auto);
     grid-gap: 1.5rem;
 }
 
@@ -1496,4 +1496,92 @@ footer li:hover {
     color: #808080;
     font-size: 0.9rem;
     font-weight: 300;
+}
+
+/* ========================================================================================================================================================
+MEDIA QUERIES
+======================================================================================================================================================== */
+
+@media (max-width: 1000px) {
+
+    .course-cards-section {
+        display: grid;
+        grid-template-columns: 2fr;
+    }
+
+    .curved-line1-section {
+        display: none;
+    }
+
+    .curved-line2-section {
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+
+    .curved-line1-section {
+        display: none;
+    }
+
+    .curved-line2-section {
+        display: none;
+    }
+
+    .course-cards-section {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .logo {
+        font-weight: 800;
+        font-size: 1.3rem;
+        cursor: pointer;
+    }
+
+    .menuList {
+        display: none;
+    }
+
+    header {
+        width: 100%;
+        padding: 1.3rem 15%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #3f6745;
+        margin-bottom: 0;
+    }
+
+    div.content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 85%;
+        max-height: 80vh;
+        background-color: #3f6745;
+        padding: 2%;
+        margin: 0.8% auto;
+        border-radius: 15px;
+    }
+    
+    div.text-area {
+        display: grid;
+        place-items: center;
+        margin-top: 10rem auto;
+        text-align: center;
+    }
+
+    .new{
+        position: relative;
+    }
+
+    .img {
+        display: grid;
+        align-items: center;
+    }
 }
