@@ -1551,7 +1551,6 @@ MEDIA QUERIES
     }
 
 
-
     header {
         width: 100%;
         padding: 1.3rem 2rem;
@@ -1665,17 +1664,22 @@ MEDIA QUERIES
         height: 30rem;
         margin-top: 3rem;
         margin-left: 2rem;
+        overflow: hidden;
     }
 
     .ten-container {
         padding: 1rem;
+        margin: 0 auto;
     }
 
     .tenleft-wrap {
         display: flex;
         justify-content: space-between;
         align-items: center;
-
+        padding: 0 auto;
+        width: 100%;
+        padding: 0 2em;
+        margin-bottom: 1em;
     }
 
     .ten-top {
@@ -1685,15 +1689,15 @@ MEDIA QUERIES
         flex-direction: row;
         flex-wrap: wrap;
         padding: 10px;
-        margin: 0;
+        margin: 0 auto;
     }
 
     .ten-left-10k {
-        font-size: 55px;
-        display: grid;
+        font-size: 3rem;
     }
 
     .fa-heart {
+        font-size: 0.8rem;
         color: #fd6816;
         margin: 2px 0 5px 0;
     }
@@ -1701,20 +1705,20 @@ MEDIA QUERIES
     .active-students {
         font-weight: 450;
         margin-bottom: 2px;
-        font-size: 20px;
+        font-size: 1rem;
     }
 
     .on-website {
         color: #fd6816;
-        font-size: 18px;
+        font-size: 0.95rem;
     }
 
     .ten-center-47 {
-        font-size: 55px;
-        display: grid;
+        font-size: 3rem;
     }
 
     .fa-star {
+        font-size: 0.8rem;
         color: #ffc152;
         margin: 2px 0 5px 0;
     }
@@ -1722,18 +1726,23 @@ MEDIA QUERIES
     .rating {
         font-weight: 450;
         margin-bottom: 2px;
-        font-size: 20px;
+        font-size: 1rem;
     }
 
     .user-community {
         color: #fd6816;
-        font-size: 18px;
+        font-size: 0.95rem;
     }
 
     .trusted {
-        font-size: 30px;
-        font-weight: 600;
-        line-height: 2.5rem;
+        font-size: 1.4rem;
+        text-align: center;
+        font-weight: 700;
+        line-height: 2.2rem;
+    }
+
+    .ten-right {
+        margin: 0 auto;
     }
 
     .ten-bottom {
@@ -1741,16 +1750,17 @@ MEDIA QUERIES
         align-items: center;
         justify-content: space-between;
         flex-direction: column;
-        padding: 80px;
-        margin-top: 80px;
+        padding: 2.9rem;
+        margin: 1.5em auto 0;
         background-color: #ffffff;
         border-radius: 30px;
         box-shadow: 0px 0px 15px #DFDCDC;
-        height: 180px;
+        min-height: 25rem;
+        max-width: 85%;
     }
 
     .ten-logo {
-        width: 150px;
+        width: 8rem;
     }
 
 }
