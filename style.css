@@ -1669,6 +1669,7 @@ MEDIA QUERIES
 
     .ten-container {
         padding: 1rem;
+        margin: 0 auto;
     }
 
     .tenleft-wrap {
