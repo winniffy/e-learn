@@ -1939,12 +1939,8 @@ MEDIA QUERIES
         grid-gap: 1.5rem;
     }
 
-
     .course-card {
-        background-color: #ffffff;
         padding: 0 1em;
-        box-shadow: 0px 0px 15px #DFDCDC;
-        border-radius: 10px;
     }
 
     .card1,
@@ -1958,119 +1954,6 @@ MEDIA QUERIES
         padding: 1em;
         align-items: center;
         justify-content: start;
-    }
-
-    .card1-img-img {
-        width: 21rem;
-        align-items: center;
-        border-radius: 10px;
-    }
-
-    .uiux-price,
-    .web-design-price,
-    .maths-price,
-    .digital-price,
-    .public-speaking-price {
-        width: 21rem;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        margin-top: 0.6em;
-    }
-
-    .uiux,
-    .web-design,
-    .maths,
-    .digital-marketing,
-    .public-speaking {
-        background-color: #FFE6D9;
-        border-radius: 5px;
-        padding: 5px;
-        font-size: 0.8rem;
-        font-weight: 500;
-    }
-
-    .price,
-    .wd-price,
-    .maths-price-250,
-    .dg-price,
-    .ps-price {
-        font-weight: 650;
-        color: #fd6816;
-    }
-
-    .how-to {
-        width: 21rem;
-        margin-top: 0.7em;
-        font-weight: 600;
-        font-size: 1.1rem;
-    }
-
-    .uiux-lessons-online {
-        width: 21rem;
-        margin-top: 1em;
-        display: flex;
-        align-items: center;
-        justify-content: left;
-    }
-
-    .uiux-lessons {
-        display: flex;
-        width: 5.7rem;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .lessons-24 {
-        font-size: 0.8rem;
-        color: #808080;
-    }
-
-    .uiux-online {
-        display: flex;
-        width: 6.9rem;
-        align-items: center;
-        justify-content: space-between;
-        margin-left: 2em;
-    }
-
-    .online-classes {
-        font-size: 0.8rem;
-        color: #808080;
-    }
-
-    .card-line {
-        width: 21rem;
-        margin-top: 1.5rem;
-        background-color: #FFA06F;
-        height: 0.15rem;
-    }
-
-    .votes-next {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 21rem;
-        margin-top: 1.6rem;
-    }
-
-    .votes-section {
-        display: flex;
-        width: 8.6rem;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .votes-36 {
-        font-size: 0.8rem;
-        color: #808080;
-    }
-
-    .fa-arrow-alt-circle-right {
-        color: #3F6745;
-        font-size: 2rem;
-        cursor: pointer;
     }
 
 }
