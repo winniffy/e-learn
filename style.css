@@ -1521,7 +1521,7 @@ MEDIA QUERIES
 
 
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
 
     body {
         height: 100vh;
@@ -1955,5 +1955,351 @@ MEDIA QUERIES
         align-items: center;
         justify-content: start;
     }
+
+
+        /* JOIN CLASS
+    ==========================================================
+    */
+
+
+    .join-live-class-section {
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .join-live-class {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+
+    .join-class-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .join-class {
+        display: flex;
+        margin-top: 2em;
+        padding: 0.8em;
+        width: 7.6em;
+        height: 2em;
+        border: 1px solid #fd6816;
+        border-radius: 7px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .joinclass-text {
+        font-size: 0.9rem;
+    }
+
+    .joinclass-icon {
+        width: 1.2em;
+        height: 1.2em;
+        border-radius: 7px;
+        background-color: #ffffff;
+        box-shadow: 0px 0px 3px #DFDCDC;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .redcircle {
+        width: 0.35em;
+        height: 0.35em;
+        background-color: #ff0000;
+        border-radius: 50%;
+    }
+
+    .class-name-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 2rem;
+    }
+
+    .class-name-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .fa-caret-down {
+        font-size: 0.9rem;
+    }
+
+    .classname {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 7.2em;
+        height: 2.5em;
+        padding: 0.9em;
+        transition: 0.5s;
+    }
+
+    .classname:hover,
+    .section:hover,
+    .subject:hover,
+    .room:hover {
+        border-radius: 6px;
+        background-color: #ffffff;
+        box-shadow: 0px 0px 3px #DFDCDC;
+        cursor: pointer;
+    }
+
+    .section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 7.2em;
+        height: 2.7em;
+        padding: 1em;
+        transition: 0.5s;
+    }
+
+    .subject {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 7.2em;
+        height: 2.7em;
+        padding: 1em;
+        transition: 0.5s;
+    }
+
+    .room {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 6.4em;
+        height: 2.7em;
+        padding: 1em;
+        transition: 0.5s;
+    }
+
+
+    .live-img-container {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .live-img-section {
+        background-image: url("./img/pexels-tima-miroshnichenko-5198239.jpg");
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 30em;
+        width: 45em;
+        border-radius: 10px;
+    }
+
+    .live {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 5.2em;
+        height: 1.6em;
+        border-radius: 5px;
+        background-color: #ffffff;
+        position: relative;
+        top: 1.6em;
+        left: 1.6em;
+        padding-left: 0.6em;
+    }
+
+    .live-red-circle {
+        width: 7.5px;
+        height: 7.5px;
+        border-radius: 50%;
+        background-color: #ff0000;
+    }
+
+    .live-textt {
+        font-size: 0.6rem;
+        font-weight: 600;
+        margin-left: 0.6em;
+    }
+
+    .live-time {
+        font-size: 0.4rem;
+        font-weight: 700;
+        margin-left: 1em;
+    }
+
+    .students-joined {
+        position: relative;
+        top: 28em;
+        left: 1.6em;
+        font-size: 0.8rem;
+        color: #ffffff;
+    }
+
+    .students-joined-section {
+        position: relative;
+        top: 23em;
+        left: 1.6em;
+        width: 41em;
+        height: 3em;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .profile-picture-section {
+        margin-left: 0.5em;
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        height: 2em;
+    }
+
+    .profile-picture {
+        width: 2em;
+        height: 2em;
+        border-radius: 50%;
+        border: 1.8px solid #ffffff;
+        margin-left: -0.5em;
+    }
+
+    .pfp1 {
+        background-image: url(./img/rediet-abebe.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .pfp2 {
+        background-image: url(./img/anatoly-yakovenko.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .pfp3 {
+        background-image: url(./img/hanu-fejiro.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .pfp4 {
+        background-image: url(./img/elon-musk.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .pfp5 {
+        background-image: url(./img/iyin-aboyeji.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .pfp6 {
+        background-image: url(./img/vitalik-buterin.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .pfp7 {
+        background-image: url(./img/winner-umeh.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .pfp8 {
+        background-color: #fd6816;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .plus-in-pfp8 {
+        font-size: 1.2rem;
+        color: #ffffff;
+    }
+
+    .students-joined-first-controls {
+        width: 9em;
+        height: 2em;
+        margin-left: 6em;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+
+    .fa-microphone {
+        color: #ffffff;
+        font-size: 1.5rem;
+        text-shadow: 0px 0px 50px #000;
+        cursor: pointer;
+    }
+
+    .phone-container {
+        border-radius: 50%;
+        width: 2em;
+        height: 2em;
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .fa-phone {
+        color: #ff0000;
+        font-size: 1em;
+    }
+
+    .fa-share-nodes {
+        color: #ffffff;
+        font-size: 1.5rem;
+        text-shadow: 0px 0px 50px #000;
+        cursor: pointer;
+    }
+
+    .students-joined-second-controls {
+        width: 9em;
+        height: 2em;
+        margin-left: 6em;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+
+    .fa-gear {
+        color: #ffffff;
+        font-size: 1.5rem;
+        text-shadow: 0px 0px 50px #000;
+        cursor: pointer;
+    }
+
+    .fa-volume-low {
+        color: #ffffff;
+        font-size: 1.5rem;
+        text-shadow: 0px 0px 50px #000;
+        cursor: pointer;
+    }
+
+    .fa-expand {
+        color: #ffffff;
+        font-size: 1.5rem;
+        text-shadow: 0px 0px 50px #000;
+        cursor: pointer;
+    }
+
 
 }
