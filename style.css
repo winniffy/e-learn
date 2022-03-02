@@ -1551,11 +1551,42 @@ MEDIA QUERIES
     }
 
 
+    .logo {
+        font-weight: 800;
+        font-size: 1.1rem;
+        cursor: pointer;
+    }
+
     header {
-        width: 100%;
-        padding: 1.3rem 2rem;
-        color: #3f6745;
+        width: 85%;
+        padding: 5% 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         margin: 0 auto;
+    }
+
+    .header-btn {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        align-self: flex-end;
+        float: right;
+    }
+
+    .myacct {
+        margin: 0 0 0 1rem;
+        padding: 5%;
+        min-width: 7rem;
+        height: 2.8rem;
+    }
+
+    .createacct {
+        margin: 0 0 0 1rem;
+        padding: 5%;
+        min-width: 7rem;
+        height: 2.8rem;
+        font-size: 0.75rem;
     }
 
     div.content {
@@ -2024,6 +2055,8 @@ MEDIA QUERIES
         display: flex;
         align-items: center;
         justify-content: space-between;
+        max-width: 25em;
+        margin: 0 auto;
     }
 
     .fa-caret-down {
@@ -2040,23 +2073,13 @@ MEDIA QUERIES
         transition: 0.5s;
     }
 
-    .classname:hover,
-    .section:hover,
-    .subject:hover,
-    .room:hover {
-        border-radius: 6px;
-        background-color: #ffffff;
-        box-shadow: 0px 0px 3px #DFDCDC;
-        cursor: pointer;
-    }
-
     .section {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: 7.2em;
-        height: 2.7em;
-        padding: 1em;
+        width: 6.1em;
+        height: 2.5em;
+        padding: 0.9em;
         transition: 0.5s;
     }
 
@@ -2064,9 +2087,9 @@ MEDIA QUERIES
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: 7.2em;
-        height: 2.7em;
-        padding: 1em;
+        width: 6.2em;
+        height: 2.5em;
+        padding: 0.9em;
         transition: 0.5s;
     }
 
@@ -2074,10 +2097,16 @@ MEDIA QUERIES
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: 6.4em;
+        width: 5.8em;
         height: 2.7em;
         padding: 1em;
         transition: 0.5s;
+    }
+
+    .section-text,
+    .subject-text,
+    .room-text {
+        font-size: 0.9rem;
     }
 
 
@@ -2094,9 +2123,10 @@ MEDIA QUERIES
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        height: 30em;
-        width: 45em;
+        min-height: 30em;
+        min-width: 22em;
         border-radius: 10px;
+        margin: 0 auto;
     }
 
     .live {
@@ -2104,51 +2134,42 @@ MEDIA QUERIES
         align-items: center;
         justify-content: flex-start;
         width: 5.2em;
-        height: 1.6em;
+        height: 1.3em;
         border-radius: 5px;
         background-color: #ffffff;
         position: relative;
         top: 1.6em;
-        left: 1.6em;
+        margin-left: 0.5rem;
         padding-left: 0.6em;
     }
 
     .live-red-circle {
-        width: 7.5px;
-        height: 7.5px;
-        border-radius: 50%;
-        background-color: #ff0000;
+        width: 0.35rem;
+        height: 0.35rem;
     }
 
     .live-textt {
         font-size: 0.6rem;
-        font-weight: 600;
-        margin-left: 0.6em;
-    }
-
-    .live-time {
-        font-size: 0.4rem;
-        font-weight: 700;
-        margin-left: 1em;
     }
 
     .students-joined {
         position: relative;
-        top: 28em;
-        left: 1.6em;
-        font-size: 0.8rem;
+        top: 24em;
+        margin-left: 0.5rem;
+        font-size: 0.7rem;
         color: #ffffff;
     }
 
     .students-joined-section {
         position: relative;
-        top: 23em;
-        left: 1.6em;
-        width: 41em;
-        height: 3em;
+        top: 18em;
+        margin-left: -4.7em;
+        width: 20em;
+        height: 9em;
         display: flex;
         align-items: center;
         justify-content: flex-start;
+        flex-direction: column;
     }
 
     .profile-picture-section {
@@ -2159,146 +2180,64 @@ MEDIA QUERIES
     }
 
     .profile-picture {
-        width: 2em;
-        height: 2em;
+        width: 1.8em;
+        height: 1.8em;
         border-radius: 50%;
-        border: 1.8px solid #ffffff;
+        border: 1.6px solid #ffffff;
         margin-left: -0.5em;
-    }
-
-    .pfp1 {
-        background-image: url(./img/rediet-abebe.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
-
-    .pfp2 {
-        background-image: url(./img/anatoly-yakovenko.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
-
-    .pfp3 {
-        background-image: url(./img/hanu-fejiro.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
-
-    .pfp4 {
-        background-image: url(./img/elon-musk.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
-
-    .pfp5 {
-        background-image: url(./img/iyin-aboyeji.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
-
-    .pfp6 {
-        background-image: url(./img/vitalik-buterin.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
-
-    .pfp7 {
-        background-image: url(./img/winner-umeh.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
     }
 
     .pfp8 {
         background-color: #fd6816;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: grid;
+        place-items: center;
         cursor: pointer;
     }
 
     .plus-in-pfp8 {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         color: #ffffff;
     }
 
     .students-joined-first-controls {
-        width: 9em;
-        height: 2em;
-        margin-left: 6em;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding-left: 0.5em;
-        padding-right: 0.5em;
+        margin-top: 1.4em;
+        margin-left: -2.8em;
     }
 
     .fa-microphone {
-        color: #ffffff;
-        font-size: 1.5rem;
-        text-shadow: 0px 0px 50px #000;
-        cursor: pointer;
+        font-size: 1.3rem;
     }
 
     .phone-container {
         border-radius: 50%;
-        width: 2em;
-        height: 2em;
-        background-color: #ffffff;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
+        width: 1.8em;
+        height: 1.8em;
     }
 
     .fa-phone {
         color: #ff0000;
-        font-size: 1em;
+        font-size: 0.8em;
     }
 
     .fa-share-nodes {
-        color: #ffffff;
-        font-size: 1.5rem;
-        text-shadow: 0px 0px 50px #000;
-        cursor: pointer;
+        font-size: 1.3rem;
     }
 
     .students-joined-second-controls {
-        width: 9em;
-        height: 2em;
-        margin-left: 6em;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding-left: 0.5em;
-        padding-right: 0.5em;
+        margin-top: 1.4em;
+        margin-left: -2.8em;
     }
 
     .fa-gear {
-        color: #ffffff;
-        font-size: 1.5rem;
-        text-shadow: 0px 0px 50px #000;
-        cursor: pointer;
+        font-size: 1.3rem;
     }
 
     .fa-volume-low {
-        color: #ffffff;
-        font-size: 1.5rem;
-        text-shadow: 0px 0px 50px #000;
-        cursor: pointer;
+        font-size: 1.3rem;
     }
 
     .fa-expand {
-        color: #ffffff;
-        font-size: 1.5rem;
-        text-shadow: 0px 0px 50px #000;
-        cursor: pointer;
+        font-size: 1.3rem;
     }
 
 
