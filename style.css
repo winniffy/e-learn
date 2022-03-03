@@ -489,16 +489,6 @@ img.girl {
     transform: rotate(170deg);
 }
 
-/* .curved-line1-arrow {
-    width: 0;
-    height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-left: 15px solid #808080;
-    float: right;
-    position: relative;
-} */
-
 .curved-line2-section {
     position: absolute;
     top: 1450px;
@@ -514,16 +504,6 @@ img.girl {
     border-style: dashed;
     transform: rotate(348deg);
 }
-
-/* .curved-line2-arrow {
-    width: 0;
-    height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-left: 15px solid #808080;
-    float: right;
-    position: relative;
-} */
 
 .our-popular-courses-section {
     padding: 20px;
@@ -2239,6 +2219,201 @@ MEDIA QUERIES
     .fa-expand {
         font-size: 1.3rem;
     }
+
+    /* GET INSTANT ALERT
+    ==========================================================
+    */
+
+
+    .get-instant-alert-container {
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .get-instant-alert-img-text {
+        margin: 3em 0;
+        height: auto;
+    }
+
+    .get-instant-img-text-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+    }
+
+    .get-instant-alert-img {
+        min-width: 15em;
+        min-height: 27em;
+        margin-left: -6em;
+    }
+
+    .new-message-alert {
+        padding-left: 1em;
+        padding-top: 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        top: 18em;
+        left: 14em;
+        min-width: 10em;
+        min-height: 10em;
+    }
+
+    .get-instant-alert-circles-group1,
+    .get-instant-alert-circles-group2 {
+        display: none;
+    }
+
+    .new-message-alert-text {
+        font-size: 0.95rem;
+        font-weight: 700;
+    }
+
+    .new-message-alert-15mins {
+        margin: 0.6em 0;
+        font-size: 0.8em;
+        color: #808080;
+        font-weight: 300;
+    }
+
+    .new-message-alert-approved-container {
+        height: 4em;
+        width: 11em;
+        border-top: 2px dashed #808080;
+        border-left: transparent;
+        border-bottom: transparent;
+        border-right: transparent;
+        margin-top: 0.5em;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: row;
+    }
+
+    .approved {
+        width: 2em;
+        height: 2em;
+        border-radius: 50%;
+        background-color: #04933B;
+        display: grid;
+        place-items: center;
+    }
+
+    .fa-thumbs-up {
+        color: #ffffff;
+        font-size: 1.1rem;
+    }
+
+    .approved-cv {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: 0.7em;
+    }
+
+    .approved-cv-text {
+        font-size: 0.8rem;
+        color: #808080;
+        margin-bottom: 0.1em;
+    }
+
+    .approved-uiux {
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+
+    .get-instant-alert-text {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin-left: -18em;
+        position: relative;
+    }
+
+    .join-over-20k-students {
+        margin-top: 2.5rem;
+        color: #fd6816;
+        font-size: 1.05rem;
+        font-weight: 400;
+    }
+
+    .get-instant-alert-inbox {
+        margin-top: 0.9rem;
+        color: #000;
+        font-size: 2.4rem;
+        text-align: center;
+        font-weight: 620;
+    }
+
+    .we-receive-text {
+        margin-top: 0.9rem;
+        color: #808080;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.8rem;
+        text-align: center;
+    }
+
+    .enter-email-container {
+        margin-top: 1.5rem;
+        width: 22em;
+        height: 3em;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .enter-email-box {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 17em;
+        height: 3em;
+        background-color: #ffffff;
+    }
+
+    .fa-envelope {
+        color: #808080;
+        font-size: 1.5rem;
+        margin-left: 1.2rem;
+    }
+
+    .enter-your-email-text {
+        outline: none;
+        border: transparent;
+        font-size: 0.9rem;
+        font-weight: 300;
+        margin-left: 1rem;
+        color: #808080;
+    }
+
+    .join-now-box {
+        width: 6em;
+        height: 3em;
+        background-color: #fd6816;
+        display: grid;
+        place-items: center;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .join-now-text {
+        color: #ffffff;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
 
 
 }
