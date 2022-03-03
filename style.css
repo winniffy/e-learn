@@ -2415,5 +2415,216 @@ MEDIA QUERIES
     }
 
 
+        /* FOOTER SECTION
+    ==========================================================
+    */
+
+
+    .footer-section {
+        display: flex;
+        margin: 2rem 1rem;
+        height: auto;
+        display: flex;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .newsletter-container {
+        height: auto;
+        width: 100%;
+        display: flex;
+        padding: 4% 4%;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 15px;
+    }
+
+    .newsletter-signup {
+        font-size: 2.3rem;
+        font-weight: 600;
+        line-height: 2.5rem;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .receive-updates {
+        color: #ffffff;
+        font-size: 0.9rem;
+        font-weight: 400;
+        text-align: center;
+        line-height: 1.2rem;
+        margin-bottom: 1rem;
+    }
+
+    .subscribe-container {
+        width: 19rem;
+        height: 3em;
+        border-radius: 10px;
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding-right: 1.3%;
+    }
+
+    .subscribe-email {
+        outline: none;
+        border: transparent;
+        font-size: 0.9rem;
+        font-weight: 300;
+        margin-left: 1rem;
+        color: #808080;
+    }
+
+    .subscribe {
+        margin-left: 1rem;
+        width: 8rem;
+        height: 2.45rem;
+        font-size: 0.75rem;
+    }
+
+    .become-an-instructor-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        height: 11rem;
+        border-bottom: 1.5px solid #c5c4c4;
+    }
+
+    .become-instructor-text {
+        font-size: 2rem;
+        color: #000;
+        font-weight: 700;
+    }
+
+    .instructor-apply-now {
+        width: 8rem;
+        height: 3rem;
+        font-size: 0.9rem;
+    }
+
+    .footer-bottom {
+        padding-top: 3rem;
+        border-bottom: 1.8px solid #c5c4c4;
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-auto-flow: row;
+        grid-template-columns: 1fr repeat (3, 1fr);
+        column-gap: 1.5rem;
+    }
+
+    .footer-elearn {
+        margin-bottom: 1rem;
+    }
+
+    .footer-bottom-left {
+        width: 23rem;
+    }
+
+    .footer-elearn-sub {
+        font-size: 0.9rem;
+        text-align: justify;
+        line-height: 1.3rem;
+        color: #808080;
+        margin-bottom: 2rem;
+    }
+
+    .footer-email {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .fa-square-envelope {
+        font-size: 1.2rem;
+        color: #808080;
+    }
+
+    .elearn-email {
+        color: #808080;
+        font-size: 0.9rem;
+        margin-left: 0.5rem;
+        font-weight: 400;
+    }
+
+    .footer-address {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .fa-location-dot {
+        font-size: 1.2rem;
+        color: #808080;
+        align-self: flex-start;
+    }
+
+    .elearn-address {
+        color: #808080;
+        font-size: 0.9rem;
+        margin-left: 0.5rem;
+        font-weight: 400;
+        line-height: 1.2rem;
+    }
+
+    .footer-socials {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .fa-facebook {
+        color: #fd6816;
+        font-size: 1.1rem;
+        cursor: pointer;
+    }
+
+    .fa-twitter,
+    .fa-instagram {
+        margin-left: 1.5rem;
+        font-size: 1.1rem;
+        color: #fd6816;
+        cursor: pointer;
+    }
+
+    h2 {
+        font-size: 1.05rem;
+        margin-bottom: 0.6rem;
+        padding-left: 0.5em;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    ul li {
+        font-size: 0.9rem;
+        color: #808080;
+        line-height: 1.9rem;
+        padding-left: 0.5rem;
+    }
+
+    li {
+        display: list-item;
+    }
+
+    footer li:hover {
+        background-color: #dadada;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .footer-copyright {
+        margin-top: 1.4rem;
+        color: #808080;
+        font-size: 0.9rem;
+        font-weight: 300;
+    }
 
 }
