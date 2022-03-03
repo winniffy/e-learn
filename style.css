@@ -2261,8 +2261,8 @@ MEDIA QUERIES
         align-items: flex-start;
         justify-content: flex-start;
         top: 18em;
-        left: 14em;
-        min-width: 10em;
+        left: 12em;
+        min-width: 9em;
         min-height: 10em;
     }
 
@@ -2503,18 +2503,18 @@ MEDIA QUERIES
     .instructor-apply-now {
         width: 8rem;
         height: 3rem;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
 
     .footer-bottom {
         padding-top: 3rem;
-        border-bottom: 1.8px solid #c5c4c4;
+        border-bottom: 1.5px solid #c5c4c4;
         width: 100%;
         height: auto;
         display: grid;
         grid-auto-flow: row;
-        grid-template-columns: 1fr repeat (3, 1fr);
-        column-gap: 1.5rem;
+        grid-template-columns: repeat (4, 1fr);
+        row-gap: 2rem;
     }
 
     .footer-elearn {
@@ -2522,109 +2522,14 @@ MEDIA QUERIES
     }
 
     .footer-bottom-left {
-        width: 23rem;
-    }
-
-    .footer-elearn-sub {
-        font-size: 0.9rem;
-        text-align: justify;
-        line-height: 1.3rem;
-        color: #808080;
-        margin-bottom: 2rem;
-    }
-
-    .footer-email {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        margin-bottom: 1.5rem;
-    }
-
-    .fa-square-envelope {
-        font-size: 1.2rem;
-        color: #808080;
-    }
-
-    .elearn-email {
-        color: #808080;
-        font-size: 0.9rem;
-        margin-left: 0.5rem;
-        font-weight: 400;
-    }
-
-    .footer-address {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        margin-bottom: 1.5rem;
-    }
-
-    .fa-location-dot {
-        font-size: 1.2rem;
-        color: #808080;
-        align-self: flex-start;
-    }
-
-    .elearn-address {
-        color: #808080;
-        font-size: 0.9rem;
-        margin-left: 0.5rem;
-        font-weight: 400;
-        line-height: 1.2rem;
-    }
-
-    .footer-socials {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-    }
-
-    .fa-facebook {
-        color: #fd6816;
-        font-size: 1.1rem;
-        cursor: pointer;
-    }
-
-    .fa-twitter,
-    .fa-instagram {
-        margin-left: 1.5rem;
-        font-size: 1.1rem;
-        color: #fd6816;
-        cursor: pointer;
-    }
-
-    h2 {
-        font-size: 1.05rem;
-        margin-bottom: 0.6rem;
         padding-left: 0.5em;
-    }
-
-    ul {
-        list-style: none;
-    }
-
-    ul li {
-        font-size: 0.9rem;
-        color: #808080;
-        line-height: 1.9rem;
-        padding-left: 0.5rem;
-    }
-
-    li {
-        display: list-item;
-    }
-
-    footer li:hover {
-        background-color: #dadada;
-        border-radius: 5px;
-        cursor: pointer;
+        order: 1;
+        margin-bottom: 2em;
     }
 
     .footer-copyright {
         margin-top: 1.4rem;
-        color: #808080;
-        font-size: 0.9rem;
-        font-weight: 300;
+        font-size: 0.85rem;
     }
 
 }
