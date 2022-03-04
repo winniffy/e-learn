@@ -1787,7 +1787,7 @@ MEDIA QUERIES
     }
 
     .working-process {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
         text-align: center;
         font-weight: 700;
         padding: 1.2rem;
@@ -1917,7 +1917,7 @@ MEDIA QUERIES
 
     .our-popular-courses-text {
         margin: 0 auto;
-        font-size: 2.1rem;
+        font-size: 2.2rem;
         font-weight: 650;
         text-align: center;
     }
@@ -1926,7 +1926,7 @@ MEDIA QUERIES
         margin: 0.5em auto;
         text-align: center;
         color: #808080;
-        font-size: 1rem;
+        font-size: 0.9rem;
         font-weight: 300;
         line-height: 1.6rem;
     }
@@ -1986,7 +1986,7 @@ MEDIA QUERIES
     }
 
     .join-live-class {
-        font-size: 1.7rem;
+        font-size: 2.2rem;
         text-align: center;
     }
 
@@ -2120,8 +2120,8 @@ MEDIA QUERIES
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        width: 5.2em;
-        height: 1.3em;
+        min-width: 5.2em;
+        min-height: 1.3em;
         border-radius: 5px;
         background-color: #ffffff;
         position: relative;
@@ -2133,10 +2133,18 @@ MEDIA QUERIES
     .live-red-circle {
         width: 0.35rem;
         height: 0.35rem;
+        margin: 0;
+        position: relative;
+    }
+
+    .live-time {
+        margin-left: 0.6em;
+        position: relative;
     }
 
     .live-textt {
         font-size: 0.6rem;
+        position: relative;
     }
 
     .students-joined {
@@ -2486,10 +2494,11 @@ MEDIA QUERIES
     }
 
     .subscribe {
-        margin-left: 1rem;
-        width: 8rem;
+        margin-left: 0;
+        width: 6.5rem;
         height: 2.45rem;
         font-size: 0.75rem;
+        position: relative;
     }
 
     .become-an-instructor-section {
