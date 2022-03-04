@@ -1,8 +1,8 @@
 /*import font (inter) */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200,300,400,500,600,700,800,900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family:wght@200,300,400,500,600,700,800,900&display=swap');
 
 * {
     padding: 0;
@@ -285,6 +285,13 @@ img.girl {
 .ten-container {
     padding: 20px;
     margin: 50px 150px 0 150px;
+}
+
+.tenleft-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
 }
 
 .ten-top {
@@ -1044,6 +1051,10 @@ img.girl {
     height: 36em;
 }
 
+.get-instant-img-text-container{
+    display: flex;
+}
+
 .get-instant-alert-img {
     background-image: url(./img/girl-alert.jpg);
     background-position: center;
@@ -1307,7 +1318,7 @@ img.girl {
 }
 
 .subscribe {
-    margin-left: 2rem;
+    margin-left: 3.45rem;
     width: 8rem;
     height: 2.85rem;
     background-color: #fd6816;
@@ -1338,7 +1349,7 @@ img.girl {
 .become-instructor-text {
     font-size: 2.5rem;
     color: #000;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .instructor-apply-now {
@@ -1638,14 +1649,15 @@ MEDIA QUERIES
         background: #ffffff;
         border-radius: 7px;
         margin-top: 2rem;
-        position: relative;
+        justify-content: space-between;
+        padding: 0 2% 0 0;
     }
 
     input#input {
         border-radius: 7px;
         height: 2.525rem;
         margin: 0.5rem 0 0.5rem 0.4rem;
-        width: 13.8rem;
+        width: 14rem;
         font-size: 0.8rem;
     }
 
@@ -1655,20 +1667,15 @@ MEDIA QUERIES
         width: 3rem;
         background-color: #fd6816;
         border-radius: 7px;
-        margin-left: 81%;
         display: flex;
         align-items: center;
         justify-content: center;
         cursor: pointer;
-    }
-
-    .search-icon:hover {
-        background-color: #fd8443;
+        position: relative;
     }
 
     .fa-search {
         font-size: 1rem;
-
     }
 
     img.girl {
@@ -2495,9 +2502,9 @@ MEDIA QUERIES
     }
 
     .become-instructor-text {
-        font-size: 2rem;
+        font-size: 1.8rem;
         color: #000;
-        font-weight: 700;
+        font-weight: 800;
     }
 
     .instructor-apply-now {
