@@ -41,32 +41,42 @@ header {
 }
 
 .menuList {
-    display: flex;
-    justify-content: space-between;
     list-style: none;
-    align-items: center;
     text-transform: capitalize;
-    flex-flow: nowrap;
     padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .menuItem {
     margin: 0 1.4rem;
     text-decoration: none;
     color: #3f6745;
+    font-size: 0.95rem;
     font-weight: 500;
-}
-
-
-.menuItem {
-    display: inline;
+    display: inline-block;
     position: relative;
     overflow: hidden;
 }
 
-a {
+nav a {
     text-decoration: none;
     color: #3f6745 !important;
+}
+
+nav a::after {
+    content: '';
+    display: block;
+    height: 2.4px;
+    background-color: #fd6816;
+    width: 0%;
+    bottom: 0;
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::after {
+    width: 100%;
 }
 
 .header-btn {
