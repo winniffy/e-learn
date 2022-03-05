@@ -1679,7 +1679,7 @@ MEDIA QUERIES
     }
 
     img.girl {
-        height: 30rem;
+        min-height: 20rem;
         margin-top: 2rem;
         margin-left: 2rem;
         overflow: hidden !important;
