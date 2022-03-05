@@ -1585,7 +1585,7 @@ MEDIA QUERIES
         justify-content: space-between;
         align-items: center;
         flex-direction: column;
-        width: 100%;
+        min-height: 60vh;
         height: auto;
         background: #3f6745;
         padding: 2% 2% 0 2%;
