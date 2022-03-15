@@ -37,6 +37,9 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 0;
+    position: fixed;
+    z-index: 10;
+    background: #E5E5E5;
 }
 
 .menuList {
@@ -177,7 +180,7 @@ div.content {
     max-height: 80vh;
     background: #3f6745;
     padding: 2%;
-    margin: 1rem auto;
+    margin: 8rem auto 1rem;
     border-radius: 15px;
 }
 
@@ -1558,12 +1561,15 @@ MEDIA QUERIES
     }
 
     header {
-        width: 85%;
-        padding: 5% 0;
+        width: 100%;
+        padding: 5% 5%;
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin: 0 auto;
+        position: fixed;
+        z-index: 10;
+        background: #E5E5E5;
     }
 
     .header-btn {
@@ -1594,11 +1600,11 @@ MEDIA QUERIES
         justify-content: space-between;
         align-items: center;
         flex-direction: column;
-        min-height: 110vh;
+        min-height: 100vh;
         height: auto;
         background: #3f6745;
         padding: 2% 2% 0 2%;
-        margin: 0 auto;
+        margin: 7rem auto 0;
         border-radius: 15px;
     }
     
