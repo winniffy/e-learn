@@ -1,25 +1,22 @@
-<h1 align="center">e-learn landing page</h1>
+<h1>e-learn landing page</h1>
 
-<p align="center">
+<p>
 this is my first full frontend practice project.
 </p>
 
 <hr>
 
-<h1 align="center"> tools </h1>
+<h1> tools </h1>
 
 
 
-<p align="center">
+<p>
 
-<a href="#">
-<img src="https://user-images.githubusercontent.com/81039726/151241963-9d1f903f-85ef-4375-937c-17015579e872.png" width=20%>
-</a>
-
-</p>
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 <hr>
 
-<h1 align="center">design credit</h1>
+<h1>design credit</h1>
 
-<p align ="center"> <a href="https://t.co/WitNxQ77wF"> qoreebullah </a> </p>
+<p> <a href="https://t.co/WitNxQ77wF"> qoreebullah </a> </p>
